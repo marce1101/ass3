@@ -1,0 +1,66 @@
+#postcard{
+    background-image:url(imgs/default.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 90vh;
+    width: 96vw;
+    margin:10px;
+}
+
+#to{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#from{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.miniTo{
+    position: absolute;
+    top: 0;
+    left:0;
+    background-color: rgba(255,255,255,0.8);
+    padding: 1px;
+    border-radius: 2px;
+    
+}
+
+.miniImg{
+    width: 100%;
+    z-index: -1;
+}
+
+.miniPost{
+    position: relative;
+    width: 125px;
+    height: auto;
+    display: inline-block;
+    background-color: red;
+    margin: 4px;
+}
+#message{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width:550px;
+    height:200px;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(255,255,255, 0.9);
+}
+#controls{
+    margin: 10px;
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    background-color:blue;
+    width: 96vw;
+}
